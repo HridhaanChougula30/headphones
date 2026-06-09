@@ -45,7 +45,6 @@ export default function ScrollSequence({ scrollYProgress }: ScrollSequenceProps)
 
     // Force high-quality interpolation
     ctx.imageSmoothingEnabled = true
-    // @ts-ignore - Some older TS versions don't recognize this
     ctx.imageSmoothingQuality = 'high'
 
     const img = images.current[index]

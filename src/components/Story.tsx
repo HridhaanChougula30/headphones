@@ -92,4 +92,5 @@ export default function Story() {
         </div>
       </motion.div>
     </div>
-
+  )
+}
